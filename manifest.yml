@@ -1,0 +1,7 @@
+---
+applications:
+- name:    Prueba-dbmysql
+  host:    prueba-dbmysql
+  memory:  256M
+  services:
+    - DBMySQL-Prueba1IBM

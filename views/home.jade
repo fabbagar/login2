@@ -1,0 +1,8 @@
+extends templates/default
+
+block content
+  
+  if isAuthenticated
+    h1= 'Bienvenido ' + user.nombre + ' a Olimpo'
+  else
+    h1= 'Bienvenido a Olimpo Colpatria'  
